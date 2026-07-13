@@ -2,10 +2,10 @@
 
 Private, local voice dictation for Russian and English on Apple Silicon Macs.
 
-This alpha build is prepared for Apple Silicon Macs. On first launch, Dictato
-downloads its free local Parakeet speech model once (about 640 MB), verifies it,
-and keeps it on your Mac. No API key, Hugging Face account, or cloud transcription
-is required.
+This alpha build is prepared for Apple Silicon Macs. Before Dictato downloads
+its free local Parakeet speech model once (about 640 MB), it asks for your
+confirmation, verifies the files, and keeps the model on your Mac. No API key,
+Hugging Face account, or cloud transcription is required.
 
 Dictato asks for Microphone, Accessibility, and Input Monitoring access only when
 you enable the related workflow.
