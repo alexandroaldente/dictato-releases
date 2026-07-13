@@ -26,6 +26,9 @@ Dictato is designed for local voice dictation on macOS.
 - It does not use advertising, analytics, or tracking SDKs.
 - It does not keep a speech history.
 
+Dictato may check the public GitHub release feed for a newer app version. That
+request contains no dictated audio or transcription text.
+
 ## Local storage
 
 Dictato stores your chosen settings, downloaded speech models, and diagnostic
