@@ -1,0 +1,7 @@
+Dictato Binary Evaluation License
+
+Copyright (c) 2026 Dictato. All rights reserved.
+
+You may download, install, and use the unmodified Dictato application for personal evaluation. You may not copy, modify, reverse engineer, decompile, redistribute, sublicense, sell, rent, lease, or publish the application or any part of it without prior written permission from the copyright holder, except where applicable law does not permit those restrictions.
+
+The application is provided "as is", without warranty of any kind. To the maximum extent permitted by law, the copyright holder is not liable for damages arising from use of the application.
