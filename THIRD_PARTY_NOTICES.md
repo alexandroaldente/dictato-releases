@@ -22,6 +22,18 @@ from another installed application.
 - License: Creative Commons Attribution 4.0 International (CC BY 4.0)
 - Attribution: NVIDIA Parakeet TDT 0.6B v3 and Ilya Stupakov's ONNX conversion
 
+## GigaAM v3
+
+Dictato offers GigaAM v3 e2e CTC INT8 as an optional local mode for Russian
+dictation. It is downloaded from a pinned public ONNX conversion and verified
+with SHA-256 before installation.
+
+- Upstream source: https://github.com/salute-developers/GigaAM
+- Model source: https://huggingface.co/ai-sage/GigaAM-v3
+- ONNX package: https://huggingface.co/istupakov/gigaam-v3-onnx
+- License: MIT License
+- Use: local Russian speech recognition
+
 ## WhisperKit
 
 Dictato includes WhisperKit from Argmax as an optional local transcription
