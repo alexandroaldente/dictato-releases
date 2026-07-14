@@ -10,10 +10,9 @@ Dictato's default local speech-recognition package is derived from
 - License: Creative Commons Attribution 4.0 International (CC BY 4.0)
 - Use: local multilingual speech recognition, including Russian and English
 
-Dictato downloads the compact ONNX package directly from the public
-`istupakov/parakeet-tdt-0.6b-v3-onnx` repository at a pinned revision and
-verifies SHA-256 checksums before installing it. The package is not copied
-from another installed application.
+Dictato bundles the compact ONNX package from the public
+`istupakov/parakeet-tdt-0.6b-v3-onnx` repository at a pinned revision. The
+package is not copied from another installed application.
 
 ## ONNX conversion
 
