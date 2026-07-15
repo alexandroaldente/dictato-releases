@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.8 Alpha
+
+- Reduced idle memory use: Parakeet now starts as you begin dictating and is
+  released after a short period without dictation.
+- Consecutive dictations keep the model ready, so normal short pauses do not
+  interrupt the next message.
+- Tuned the local ONNX runtime to avoid retaining large allocator caches.
+
 ## 0.1.7 Alpha
 
 - Parakeet, the default Russian and English model, is now included in Dictato.

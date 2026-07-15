@@ -7,6 +7,10 @@ speech model (about 640 MB) is included in Dictato, so dictation is ready after
 installation. No API key, Hugging Face account, first-run model download, or
 cloud transcription is required.
 
+To keep memory use reasonable on 8 GB Macs, Dictato loads the local model when
+you begin dictating, keeps it ready during short pauses between messages, then
+releases it after a short idle period.
+
 Dictato asks for Microphone, Accessibility, and Input Monitoring access only when
 you enable the related workflow.
 
