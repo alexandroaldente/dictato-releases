@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.10 Alpha
+
+- The in-app Update button now downloads and installs a new Dictato build in
+  the background, then restarts the app automatically.
+- The regular update flow does not open GitHub or a browser.
+
 ## 0.1.9 Alpha
 
 - Replaced the recognition runtime packaging to remove its slow per-session

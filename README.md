@@ -14,6 +14,10 @@ releases it after a real idle period.
 Dictato asks for Microphone, Accessibility, and Input Monitoring access only when
 you enable the related workflow.
 
+When an update is available, the in-app **Update** button downloads it in the
+background, replaces Dictato, and relaunches the app. It does not open a browser
+or GitHub page during the normal update flow.
+
 When a running Dictato is moved to the Trash, it clears its own local data before
 quitting. macOS cannot notify an already-closed app that it was later moved to
 the Trash.
