@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.9 Alpha
+
+- Replaced the recognition runtime packaging to remove its slow per-session
+  unpacking step before dictation.
+- Extended the active dictation session to 45 seconds, keeping normal batches
+  of messages fast while still returning memory after real idle time.
+
 ## 0.1.8 Alpha
 
 - Reduced idle memory use: Parakeet now starts as you begin dictating and is
