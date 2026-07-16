@@ -1,4 +1,3 @@
-<!-- Updated signature inside appcast.xml -->
 <?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
@@ -6,15 +5,15 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Dictato</title>
         <item>
             <title>0.1.11</title>
-            <pubDate>Thu, 16 Jul 2026 07:50:36 +0300</pubDate>
+            <pubDate>Thu, 16 Jul 2026 08:40:46 +0300</pubDate>
             <sparkle:version>12</sparkle:version>
             <sparkle:shortVersionString>0.1.11</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/alexandroaldente/dictato-releases/releases/download/v0.1.11-alpha.1/Dictato-0.1.11-arm64.dmg" length="526122434" type="application/octet-stream" sparkle:edSignature="Y+BKN/fcagekB1ly3gwsIKG08zvkwC4W1EKo1Z2PJeHF0dnF0kK9TpPifFvaJRdGA0QcgOG60++M9oofOT4ZCw=="></enclosure>
+            <enclosure url="https://github.com/alexandroaldente/dictato-releases/releases/download/v0.1.11/Dictato-0.1.11-arm64.dmg" length="526122434" type="application/octet-stream" sparkle:edSignature="Y+BKN/fcagekB1ly3gwsIKG08zvkwC4W1EKo1Z2PJeHF0dnF0kK9TpPifFvaJRdGA0QcgOG60++M9oofOT4ZCw=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 2QICS40KMU2F3gDTbLDVd/wooSEzIyDaAIbGb8ndjEJxamwMvg+hQnNJTgYCy1FPOrBgrbvUbE4UaRvVnqITAw==
-length: 1155
+edSignature: P86i0JAEc7tUNp+znbpwD0YJO9G7yIMw7/TMw5hBCQWEsposq1oPH0KF1y4IrRYRDGq3Ec8Un8Lf1/vTCnPOBw==
+length: 1147
 -->
