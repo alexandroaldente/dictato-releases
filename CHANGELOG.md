@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.11 Alpha
+
+- Added Sparkle-based automatic updates with signed appcast and EdDSA archive verification.
+- Future releases can include compact delta updates instead of downloading the full application archive.
+
 ## 0.1.10 Alpha
 
 - The in-app Update button now downloads and installs a new Dictato build in

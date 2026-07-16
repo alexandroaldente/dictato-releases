@@ -18,6 +18,10 @@ When an update is available, the in-app **Update** button downloads it in the
 background, replaces Dictato, and relaunches the app. It does not open a browser
 or GitHub page during the normal update flow.
 
+Starting with 0.1.11, Dictato also uses Sparkle for background automatic updates.
+The update feed and every downloaded archive are verified with EdDSA signatures
+before installation. Future compatible releases can use smaller delta downloads.
+
 When a running Dictato is moved to the Trash, it clears its own local data before
 quitting. macOS cannot notify an already-closed app that it was later moved to
 the Trash.

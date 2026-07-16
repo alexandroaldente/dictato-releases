@@ -1,20 +1,20 @@
 <!-- Updated signature inside appcast.xml -->
-<?xml version="1.0" standalone="yes"?>
-<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Dictato</title>
         <item>
-            <title>0.1.10</title>
-            <pubDate>Thu, 16 Jul 2026 07:35:16 +0300</pubDate>
-            <sparkle:version>11</sparkle:version>
-            <sparkle:shortVersionString>0.1.10</sparkle:shortVersionString>
+            <title>0.1.11</title>
+            <pubDate>Thu, 16 Jul 2026 07:50:36 +0300</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>0.1.11</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/alexandroaldente/dictato-releases/releases/download/v0.1.10-alpha.1/Dictato-0.1.10-arm64.dmg" length="525184148" type="application/octet-stream" sparkle:edSignature="yVuBUUDPtbQ+qyzxJ3P3NDwk6JRuH5mzS8u0VGsj9rPf7FUPCG7SnYM7uVj0YV+9Hc8r0G99Gqpj4YKf94BpBA=="/>
+            <enclosure url="https://github.com/alexandroaldente/dictato-releases/releases/download/v0.1.11-alpha.1/Dictato-0.1.11-arm64.dmg" length="526122434" type="application/octet-stream" sparkle:edSignature="Y+BKN/fcagekB1ly3gwsIKG08zvkwC4W1EKo1Z2PJeHF0dnF0kK9TpPifFvaJRdGA0QcgOG60++M9oofOT4ZCw=="></enclosure>
         </item>
     </channel>
-</rss>
-<!-- sparkle-signatures:
-edSignature: rmBgkb74l2clMtDc6qdd4xu8XTN0o+evxUn+LIbsH6BU5L+KiEGUQ0DRQJE79GQSyjh8aq/TLpe5Y2kHaDvSDA==
-length: 910
+</rss><!-- sparkle-signatures:
+edSignature: 2QICS40KMU2F3gDTbLDVd/wooSEzIyDaAIbGb8ndjEJxamwMvg+hQnNJTgYCy1FPOrBgrbvUbE4UaRvVnqITAw==
+length: 1155
 -->
