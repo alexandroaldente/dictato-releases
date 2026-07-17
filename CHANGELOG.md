@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.12
+
+- Reduced idle memory use: the Parakeet recognition worker now leaves memory
+  after 12 seconds without dictation instead of remaining cached indefinitely.
+- Back-to-back dictations still reuse the warm worker, so normal short message
+  batches remain fast.
+- Replaced the idle cleanup timer with a deterministic macOS dispatch timer.
+
 ## 0.1.11 Alpha
 
 - Added Sparkle-based automatic updates with signed appcast and EdDSA archive verification.
@@ -7,9 +15,8 @@
 
 ## 0.1.10 Alpha
 
-- The in-app Update button now downloads and installs a new Dictato build in
-  the background, then restarts the app automatically.
-- The regular update flow does not open GitHub or a browser.
+- Dictato now installs updates directly from the in-app Update button.
+- Updates download in the background, replace the application, and relaunch Dictato without opening GitHub or a browser.
 
 ## 0.1.9 Alpha
 
